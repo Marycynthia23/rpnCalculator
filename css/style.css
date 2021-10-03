@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #d4d4d2;
+}
+/*#container{
+    width: 1000px;
+    height: 500px;
+    background:linear-gradient(rgba(0,0,0,0.3) rgba(0,0,0,0.3)) url(1c1c1c.png);
+    margin: 20px, auto;
+}
+*/
+
+.calculator {
+  width: 325px;
+  height: 430px;
+  background-color: #1c1c1c;
+  margin: auto;
+  top: 30px;
+  position: relative;
+  border-radius: 15px;
+  color: whitesmoke;
+}
+#result {
+  height: 130px;
+}
+
+#history {
+  text-align: right;
+  height: 20px;
+  margin: 20px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #919191;
+}
+#output {
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+  font-size: 30px;
+}
+#keyboard {
+  height: -300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.operator,
+.number,
+.empty {
+  width: 55px;
+  height: 45px;
+  margin: 5px;
+  float: left;
+  border-width: 0;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 3px 10px;
+}
+.number,
+.empty {
+  background-color: #505050;
+  color: whitesmoke;
+}
+.number-0 {
+  /* width: 128px;
+  grid-column: 1 / span 2; */
+  color: whitesmoke;
+}
+.number,
+.operator {
+  cursor: pointer;
+}
+.operator:active,
+.number:active {
+  font-size: 16px;
+}
+.btn-o {
+  background-color: #ff9500;
+  font-size: 20px;
+}
+.top-3 {
+  background-color: #d4d4d2;
+  font-size: 20px;
+}
